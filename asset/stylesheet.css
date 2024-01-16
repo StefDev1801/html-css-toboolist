@@ -1,34 +1,61 @@
+/* #region advance css selector*/
+*{
+    margin: 0;
+}
+:root{
+    --tobo-graybackground:#f6f8f9;
+    --tobo-button:#47adf1;
+    --tobo-oval-sky_blue:#45abe9;
+    --tobo-oval-purple: #9c72e4;
+    --tobo-oval-aqua_green: #64c0a8;
+    --tobo-oval-orange: #f29e33;
+    --tobo-oval-pink: #d863a0;
+    --tobo-oval-uglygreen: #b0c926;
+}
+/* #endregion advance css selector*/
+
+
+
+/* #region header*/
 #toobolist_header{
     font-weight: bold;
     vertical-align: top;
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
 }
-*{
-    margin: 0;
+/* #endregion header */
+
+
+
+/* #region main*/
+main{
+    /* background-color:var(--tobo-graybackground); */
+    background-color: black;
+    padding: 1rem;
 }
-/* 
-:root{
-    
-    color: #64c0a8;
-    color: #d863a0;
-    color: #9c72e4;
-    color: #f29e33;
-    color: #b0c926;
-    color: #45abe9;
-    color: #f6f8f9;
-    color: #47adf1;
-    need cross and check
- */
+.buttons{
+    padding: 1rem;
+
+}
 .container{
         width: 800px;
-        background-color: red;
+        background-color: white;
         margin: auto;
 }
 .oval{
     font-size: 0.8rem;
     background-color: lightblue;
 }
-main{
-    background-color: gray;
-}
+
+/* #endregion main*/
+
+/* container staccato sopra e sotto dal main */
+
+
+/* button grandi e distanziati da sopra e sotto */
+/* titoli e freccia giù grandi e neri con font roboto */
+/* check e cross circolari +check colore verde + cross colore rosso */
+/* span con scritte di size giusta e roboto */
+/* tipi attività "ovali"+ vari colori */
+/* roboto a tutti? */
+
