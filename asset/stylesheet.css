@@ -1,8 +1,34 @@
-span{
+#toobolist_header{
     font-weight: bold;
     vertical-align: top;
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
-
 }
-
+*{
+    margin: 0;
+}
+/* 
+:root{
+    
+    color: #64c0a8;
+    color: #d863a0;
+    color: #9c72e4;
+    color: #f29e33;
+    color: #b0c926;
+    color: #45abe9;
+    color: #f6f8f9;
+    color: #47adf1;
+    need cross and check
+ */
+.container{
+        width: 800px;
+        background-color: red;
+        margin: auto;
+}
+.oval{
+    font-size: 0.8rem;
+    background-color: lightblue;
+}
+main{
+    background-color: gray;
+}
