@@ -1,6 +1,7 @@
 /* #region advance css selector*/
 *{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 :root{
     --tobo-graybackground:#f6f8f9;
@@ -11,6 +12,8 @@
     --tobo-oval-orange: #f29e33;
     --tobo-oval-pink: #d863a0;
     --tobo-oval-uglygreen: #b0c926;
+    --tobo-check:#83cebd;
+    --tobo-cross:#eb4d44;
 }
 /* #endregion advance css selector*/
 
@@ -20,7 +23,6 @@
 #toobolist_header{
     font-weight: bold;
     vertical-align: top;
-    font-family: 'Roboto', sans-serif;
     font-size: 3rem;
 }
 /* #endregion header */
@@ -28,34 +30,96 @@
 
 
 /* #region main*/
+hr{
+    border-color: #f6f8f9;
+}
 main{
-    /* background-color:var(--tobo-graybackground); */
-    background-color: black;
+    background-color:var(--tobo-graybackground);
     padding: 1rem;
 }
-.buttons{
-    padding: 1rem;
 
+/* button distanziati da sopra e sotto */
+.buttons{
+    padding: 1rem 5rem;
+}
+.radiusbuttons{
+    border-radius: 5px;
+
+}
+#bluebutton{
+    background-color: var(--tobo-button);
+    color: var(--tobo-graybackground);
+}
+#whitebutton{
+    background-color: white;
+    color: var(--tobo-graybackground);
 }
 .container{
         width: 800px;
         background-color: white;
         margin: auto;
 }
+
+/* titoli e freccia giù */
+.scritta_grande{
+    font-weight: 800;
+    margin: 1rem;
+}
+.circle{
+    border: 1px solid ;
+    border-radius: 100%;
+    color: var(--tobo-check);
+}
+.cross{
+    border: 1px solid ;
+    border-radius: 100%;
+    color: var(--tobo-cross);
+}
 .oval{
     font-size: 0.8rem;
-    background-color: lightblue;
+    background-color: var(--tobo-oval-sky_blue);
+    padding: 0.5rem;
+    border-radius: 30%;
 }
+.oval1{
+    font-size: 0.8rem;
+    background-color: var(--tobo-oval-purple);
+    padding: 0.5rem;
+    border-radius: 30%;
+}
+.oval2{
+    font-size: 0.8rem;
+    background-color: var(--tobo-oval-aqua_green);
+    padding: 0.5rem;
+    border-radius: 30%;
+}
+.oval3{
+    font-size: 0.8rem;
+    background-color: var(--tobo-oval-orange);
+    padding: 0.5rem;
+    border-radius: 30%;
+}
+.oval4{
+    font-size: 0.8rem;
+    background-color: var(--tobo-oval-pink);
+    padding: 0.5rem;
+    border-radius: 30%;
+}
+.oval5{
+    font-size: 0.8rem;
+    background-color: var(--tobo-oval-uglygreen);
+    padding: 0.5rem;
+    border-radius: 30%;
+}
+.distanziamento{
+    margin: 1rem;
 
+}
 /* #endregion main*/
 
-/* container staccato sopra e sotto dal main */
 
 
-/* button grandi e distanziati da sopra e sotto */
-/* titoli e freccia giù grandi e neri con font roboto */
-/* check e cross circolari +check colore verde + cross colore rosso */
-/* span con scritte di size giusta e roboto */
+/* span con scritte di size giusta */
 /* tipi attività "ovali"+ vari colori */
-/* roboto a tutti? */
+
 
